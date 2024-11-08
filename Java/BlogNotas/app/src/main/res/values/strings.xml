@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BlogNotas</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="txt_notas">Escribre.....</string>
+</resources>

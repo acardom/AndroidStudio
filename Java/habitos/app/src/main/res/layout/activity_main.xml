@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_añadir"
+        android:layout_width="356dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/Tarea"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_añadir"
+        android:layout_width="351dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:onClick="añadir"
+        android:text="@string/guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_añadir" />
+
+    <Button
+        android:id="@+id/btn_añadir4"
+        android:layout_width="351dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:onClick="actualizar"
+        android:text="@string/actualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_datos" />
+
+    <Button
+        android:id="@+id/btn_añadir5"
+        android:layout_width="351dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:onClick="borrar"
+        android:text="@string/borrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_añadir4" />
+
+    <EditText
+
+        android:id="@+id/et_datos"
+        android:layout_width="349dp"
+        android:layout_height="436dp"
+        android:layout_marginTop="30dp"
+        android:background="#F4B15B"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_añadir" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="et1">Ingrese primer valor</string>
+    <string name="et2">Ingrese segundo valor</string>
+    <string name="res">Resultado</string>
+    <string name="btn_sumar">Sumar</string>
+    <string name="btn_restar">Restar</string>
+    <string name="btn_multipliacar">Multiplicar</string>
+    <string name="btn_dividir">Dividir</string>
+    <string name="btn_calcular">Calcular</string>
+</resources>
