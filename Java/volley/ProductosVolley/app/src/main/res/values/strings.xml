@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProductosVolley</string>
+    <string name="pt1">Código del producto</string>
+    <string name="pt2">Producto</string>
+    <string name="pt3">Precio del producto</string>
+    <string name="btn1">REGISTRAR</string>
+    <string name="btn2">BUSCAR</string>
+    <string name="btn4">ELIMINAR</string>
+    <string name="fabricante">Fabricante</string>
+    <string name="editar">EDITAR</string>
+    <string name="btn5"><![CDATA[>]]></string>
+    <string name="btn6"><![CDATA[<]]></string>
+</resources>
