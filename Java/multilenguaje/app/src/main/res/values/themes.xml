@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Multilenguaje" parent="Theme.Material3.DayNight">
+        <!-- Habilitar el ActionBar con estilo Material3 -->
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+
+        <!-- Configura el logo -->
+        <item name="android:logo">@drawable/logo</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!-- Opcional: Color de fondo del ActionBar -->
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.Multilenguaje" parent="Base.Theme.Multilenguaje" />
+</resources>
