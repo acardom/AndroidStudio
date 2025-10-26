@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:onClick="Crear_Cuenta"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:autoStart="true"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/slide_in_right"
+        android:outAnimation="@anim/slide_out_left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bienvenida">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/coche1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/coche2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/coche3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/coche4" />
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/tv_bienvenida"
+        android:layout_width="396dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:clickable="false"
+        android:text="@string/nombre_concesionario"
+        android:textAlignment="center"
+        android:textColor="@color/letras_barra"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/letras_barra"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="text"
+        android:textColor="@color/letras_principales"
+        android:textColorHint="@color/letras_principales"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipper" />
+
+    <Button
+        android:id="@+id/btn_crear"
+        android:layout_width="299dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="iniciarSesion"
+        android:text="@string/btn_acceder"
+        android:textColor="@color/boton_fondo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_contraseñaCrear"
+        app:strokeColor="@color/boton_fondo"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/tv_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="Crear_Cuenta"
+        android:pointerIcon="zoom_in"
+        android:text="@string/crear_cuenta"
+        android:textColor="@color/boton_fondo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_crear" />
+
+    <EditText
+        android:id="@+id/et_contraseñaCrear"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/letras_barra"
+        android:ems="10"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/letras_principales"
+        android:textColorHint="@color/letras_principales"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_usuario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

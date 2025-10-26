@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Aplicación_Temática_Libre</string>
+    <string name="nombre">Introduzca su usuario</string>
+    <string name="nombre_concesionario">Concesionario Ramiro</string>
+    <string name="contraseña">Introduzca su contraseña</string>
+    <string name="btn_acceder">ACCEDER</string>
+    <string name="crear_cuenta">¿AUN NO TIENES CUENTA?</string>
+
+    <string name="Correo">Introduzca su correo</string>
+    <string name="Nombre_propio">Introduzca su nombre</string>
+    <string name="apellido">Introduzca su apellido</string>
+    <string name="sexo">Introduzca su genero</string>
+    <string name="Verificar_contr">Verifique su contraseña</string>
+    <string name="btn_crear">CREAR</string>
+
+    <string name="crear">Introduzca sus datos</string>
+    <string name="btn_volver">Volver</string>
+    <string name="btn_sesion">Cerrar Sesion</string>
+    <string name="btn_llamar">Llamar</string>
+
+    <string name="Masculino">Soy Hombre</string>
+    <string name="Femenino">Soy Mujer</string>
+    <string name="Otros">Otros...</string>
+    <string name="title_activity_pagina_principal">pagina_principal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_inicio">Inicio</string>
+</resources>
